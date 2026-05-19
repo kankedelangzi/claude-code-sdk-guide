@@ -23,20 +23,20 @@
 ## 第四部分：实战篇
 
 - [x] 第10章：实战案例：智能助手 → [10-smart-assistant.md](10-smart-assistant.md)
-- [ ] 第11章：实战案例：代码生成工具
-- [ ] 第12章：性能优化与最佳实践
+- [x] 第11章：实战案例：代码生成工具 → [11-code-generator.md](11-code-generator.md)
+- [x] 第12章：性能优化与最佳实践 → [12-performance-best-practices.md](12-performance-best-practices.md)
 
 ## 第五部分：附录
 
-- [ ] 附录A：API 参考手册
+- [x] 附录A：API 参考手册 → [appendix-a-api-reference.md](appendix-a-api-reference.md)
 - [ ] 附录B：常见问题解答
 
 ---
 
 **统计信息：**
-- 总章节数：15
-- 已完成：10
+- 总章节数：14
+- 已完成：13
 - 进行中：0
-- 待完成：6
+- 待完成：1
 
 **最后更新：** 2026-05-19

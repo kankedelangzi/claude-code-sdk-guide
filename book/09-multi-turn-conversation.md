@@ -572,5 +572,5 @@ main().catch(console.error);
 ---
 
 > 📚 **继续阅读**
-> - 下一章：[第10章：实战案例 - 智能助手](10-assistant.md)
+> - 下一章：[第10章：实战案例 - 智能助手](10-smart-assistant.md)
 > - 深入了解：[Agent Loop 机制](../07-mcp-protocol.md)

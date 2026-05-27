@@ -1,0 +1,15 @@
+# OpenClaw 个人配置文件（不推送到公开仓库）
+.opclaw/
+*.md
+!README.md
+!book/**/*.md
+
+# 临时文件
+*.tmp
+*.log
+.DS_Store
+.Taskfile*
+
+# Node modules（如果有）
+node_modules/
+package-lock.json

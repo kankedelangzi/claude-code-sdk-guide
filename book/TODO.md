@@ -7,85 +7,75 @@
 
 ## 📋 待写主题清单
 
-> 所有原有主题已完成！以下是扩展新主题建议。
-
-### 第七部分：扩展进阶篇（建议新增）
-
-- [x] 第18章：实时流式响应与 SSE 处理 ✅ (2026-05-27)
-  - 内容要点：深入讲解 streaming 的高级用法、Server-Sent Events 处理、流式响应的中断与恢复
-  - 优先级：高
-  - 实际字数：约 7500 字
-  - 代码示例：实时翻译系统、流式代码补全
-  - 文件路径：18-streaming-sse.md
-
-- [x] 第19章：成本优化与 Token 管理 ✅ (2026-05-27)
-  - 内容要点：如何监控和优化 API 成本、Token 计数与预算控制、Prompt 压缩技巧
-  - 优先级：高
-  - 实际字数：约 8500 字
-  - 代码示例：成本监控仪表盘、Token 预算管理器
-  - 文件路径：19-cost-optimization.md
-
-- [x] 第20章：测试策略与 Mock 技巧 ✅ (2026-05-27)
-  - 内容要点：如何为 Claude Code SDK 应用编写单元测试、集成测试、Mock API 响应
-  - 优先级：中
-  - 实际字数：约 7800 字
-  - 代码示例：四种 Mock 策略（SDK方法/MockServer/MSW/VCR）、Vitest 单元测试、流式 SSE 解析、GitHub Actions CI
-  - 文件路径：20-testing-strategy-mock.md
-
-- [x] 第21章：错误处理与重试机制 ✅ (2026-05-27)
-  - 内容要点：构建健壮的错误处理系统、指数退避重试、断路器模式
-  - 优先级：高
-  - 实际字数：约 8500 字
-  - 代码示例：错误分类器、三种重试模式、断路器、模型降级链、ResilientClient、SmartRetryManager
-  - 文件路径：21-error-handling-retry.md
-
-- [x] 第22章：缓存策略与性能调优 ✅ (2026-05-27)
-  - 内容要点：Prompt caching 深度使用、响应缓存（内存+Redis）、语义缓存、多层缓存架构、性能调优
-  - 优先级：中
-  - 实际字数：约 6800 字
-  - 代码示例：Prompt Caching 完整用法、LRU/Redis 响应缓存、语义缓存（sentence-transformers）、MultiLayerCache 多层架构、并发优化、连接池、Token 监控
-  - 文件路径：22-cache-strategy-performance.md
-
-- [x] 第23章：企业级应用场景 ✅ (2026-05-27)
-  - 内容要点：大型企业应用场景（知识库问答、代码审查、客户支持、多租户 SaaS）、合规要求、审计日志、多租户架构、数据隔离
-  - 优先级：中
-  - 实际字数：约 6800 字
-  - 代码示例：EnterpriseKnowledgeBase、AuditLogger、CodeReviewBot、SupportIntelligence、MultiTenantAIService（5个完整类）
-  - 真实案例：GitLab、Midjourney、Lyft、HubSpot 数据引用
-  - 文件路径：23-enterprise-use-cases.md
-
-- [ ] 第24章：Rate Limiting 与配额管理
-  - 内容要点：如何处理 API 限制、请求队列管理、多 API Key 轮询、配额监控
-  - 优先级：中
-  - 预估字数：3000
-  - 代码示例：智能请求调度器、配额预警系统
-
-- [ ] 第25章：日志与监控系统集成
-  - 内容要点：如何监控 SDK 应用的健康状况、OpenTelemetry 集成、性能追踪
-  - 优先级：低
-  - 预估字数：3500
-  - 代码示例：完整的可观测性方案、Grafana 仪表盘
-
 ### 第七部分：附录扩展（建议新增）
 
-- [ ] 附录H：社区插件与工具生态
-  - 内容要点：优秀的第三方工具和库、VSCode 插件、Chrome 扩展
-  - 优先级：低
-  - 预估字数：2500
+- [x] 附录H：社区插件与工具生态 ✅ (2026-05-27)
+  - 内容要点：官方插件详解（code-review/feature-dev/hookify等）、SDK插件系统、IDE扩展、社区工具（OpenClaw/Promptfoo/Helicone）、MCP服务器生态
+  - 优先级：低 → 已完成
+  - 实际字数：约 8500 字
+  - 代码示例：官方插件使用、SDK加载插件、MCP服务器连接、自定义MCP服务器、VSCode/Neovim配置
+  - 文件路径：appendix-h-community-plugins.md
 
-- [ ] 附录I：案例研究 - 真实公司实施案例
-  - 内容要点：真实公司的 Claude Code SDK 实施案例、架构决策、经验教训
-  - 优先级：中
-  - 预估字数：5000
+- [x] 附录I：案例研究 - 真实公司实施案例 ✅ (2026-05-27)
+  - 内容要点：真实公司的 Claude Code SDK 实施案例（Satispay/HubSpot/GitLab/Midjourney/Lyft）、架构决策、量化收益、代码示例
+  - 优先级：中 → 已完成
+  - 实际字数：约 8000 字
+  - 代码示例：Satispay Subagent 模式、HubSpot MCP 配置、GitLab CI 审查、Midjourney 内容审核流水线、Lyft 智能客服 Tool Use
+  - 文件路径：appendix-i-case-studies.md
 
-- [ ] 附录J：迁移指南 - 从其他 AI SDK 迁移
-  - 内容要点：从 OpenAI SDK、LangChain 等迁移到 Claude Code SDK
-  - 优先级：低
+- [x] 附录J：迁移指南 - 从其他 AI SDK 迁移 ✅ (2026-05-28)
+  - 内容要点：从 OpenAI SDK、LangChain 等迁移到 Claude Code SDK，迁移步骤、代码示例对照、常见陷阱
+  - 优先级：中 → 已完成
   - 预估字数：3000
+  - 文件路径：appendix-j-migration-guide.md
+
+- [x] 附录K：Claude Code SDK 安全合规指南 ✅ (2026-05-28)
+  - 内容要点：SOC2/GDPR 合规、数据加密、访问控制、审计日志、敏感数据过滤、Prompt Injection 防护
+  - 优先级：高 → 已完成
+  - 实际字数：约 7000 字
+  - 代码示例：API Key 安全管理、AES-256 加密、审计日志、GDPR 数据删除/导出、SOC2 检查清单
+  - 文件路径：appendix-k-security-compliance.md
+
+- [x] 附录L：大规模团队落地实践 ✅ (2026-05-28)
+  - 内容要点：团队培训、Prompt 规范、代码审查流程改造、ROI 测算
+  - 优先级：中 → 已完成
+  - 实际字数：约 6500
+  - 代码示例：分层培训体系、Prompt 版本管理、GitHub AI Review 集成、ROI 计算器、Prompt Wiki、30/60/90 天检查
+  - 文件路径：appendix-l-team-deployment.md
+
+- [x] 附录M：Claude Code SDK 与 RAG 集成实战 ✅ (2026-05-28)
+  - 内容要点：向量数据库集成、知识库检索增强、Chroma/Pinecone 实战、RAG + Claude Code 集成架构
+  - 优先级：中 → 已完成
+  - 实际字数：约 6000 字
+  - 代码示例：Chroma 基础 CRUD、Pinecone 云端操作、RAG 检索类、知识库问答系统
+  - 文件路径：appendix-m-rag-integration.md
+
+- [x] 附录N：Claude Code SDK 与 Agent 评估框架 ✅ (2026-05-28)
+  - 内容要点：评估指标设计（技术/质量/业务）、评估数据集构建、自动化评估流水线、LLM-as-Judge、开源评估工具（OpenAI Evals/LangSmith/Helicone/PromptFoo）
+  - 优先级：高 → 已完成
+  - 实际字数：约 8500 字
+  - 代码示例：AgentEvaluator 类实现、GitHub Actions CI/CD 集成、Helicone 监控集成、代码审查 Agent 评估完整案例
+  - 文件路径：appendix-n-agent-evaluation.md
+
+- [x] 附录O：Claude Code SDK 在 CI/CD 中的深度应用 ✅ (2026-05-28)
+  - 内容要点：GitHub Actions/GitLab CI 集成、AI 代码审查、AI 测试生成、部署验证、日志分析
+  - 优先级：高 → 已完成
+  - 实际字数：约 7500 字
+  - 代码示例：GitHub Actions 工作流、GitLab CI 配置、AI 代码审查脚本、测试生成 Agent、部署检查
+  - 文件路径：appendix-o-cicd.md
+
+- [x] 附录P：Claude Code SDK 未来趋势与路线图 ✅ (2026-05-28)
+  - 内容要点：模型演进路线图、MCP 协议发展、记忆系统（ChatMemory/Dreaming）、Multi-Agent 协作、Always-On 模式、多模态融合、端侧部署、开发者行动指南
+  - 优先级：中 → 已完成
+  - 实际字数：约 7500 字
+  - 代码示例：模型能力配置、MCP 服务器开发、记忆管理器、Multi-Agent 架构、Always-On 监控、多模态 Agent、端侧 Agent
+  - 文件路径：appendix-p-future-roadmap.md
 
 ---
 
-## ✅ 已完成（24章）
+## ✅ 已完成（35 章）
+
+### 正文章节（25章）
 
 - 第1章 Claude Code SDK 简介 (2026-05-19)
 - 第2章 环境搭建与安装 (2026-05-19)
@@ -104,11 +94,17 @@
 - 第15章 生产环境部署 (2026-05-20)
 - 第16章 插件开发指南 (2026-05-21)
 - 第17章 调试技巧与故障排查 (2026-05-21)
-- 第18章 实时流式响应与 SSE 处理 (2026-05-27) ✅
-- 第19章 成本优化与 Token 管理 (2026-05-27) ✅
-- 第20章 测试策略与 Mock 技巧 (2026-05-27) ✅
-- 第21章 错误处理与重试机制 (2026-05-27) ✅
-- 第22章 缓存策略与性能调优 (2026-05-27) ✅
+- 第18章 实时流式响应与 SSE 处理 (2026-05-27)
+- 第19章 成本优化与 Token 管理 (2026-05-27)
+- 第20章 测试策略与 Mock 技巧 (2026-05-27)
+- 第21章 错误处理与重试机制 (2026-05-27)
+- 第22章 缓存策略与性能调优 (2026-05-27)
+- 第23章 企业级应用场景 (2026-05-27)
+- 第24章 Rate Limiting 与配额管理 (2026-05-27)
+- 第25章 日志与监控系统集成 (2026-05-27)
+
+### 附录（7 章）
+
 - 附录A API 参考手册 (2026-05-19)
 - 附录B 常见问题解答 (2026-05-20)
 - 附录C Claude Code CLI vs SDK 对比 (2026-05-21)
@@ -116,22 +112,48 @@
 - 附录E 版本升级指南 (2026-05-22)
 - 附录F 安全最佳实践 (2026-05-22)
 - 附录G SDK 性能基准测试 (2026-05-22)
+- 附录H 社区插件与工具生态 (2026-05-27)
+- 附录I 案例研究 - 真实公司实施案例 (2026-05-27)
+- 附录J 迁移指南 - 从其他 AI SDK 迁移 (2026-05-28)
+- 附录K 安全合规指南 (2026-05-28)
+
+- 附录L 大规模团队落地实践 (2026-05-28)
+- 附录M Claude Code SDK 与 RAG 集成实战 (2026-05-28)
+- 附录N Claude Code SDK 与 Agent 评估框架 (2026-05-28)
+- 附录O Claude Code SDK 在 CI/CD 中的深度应用 (2026-05-28)
+- 附录P Claude Code SDK 未来趋势与路线图 (2026-05-28)
 
 ---
 
 **统计信息：**
-- 原有章节数：19（已完成 ✅）
-- 扩展建议：11 个新主题
-- 已完成：**25**
+- 总章节数：**39**（正文 26 章 + 附录 13 章）
+- 已完成：**38**
 - 进行中：0
-- 待完成：**5（扩展主题）**
+- 待完成：**1**（附录S）
 
 ---
 
 **下一步：**
-第22章已完成！剩余 6 个待写主题，推荐顺序：
-1. 第24章：Rate Limiting 与配额管理（推荐）
-2. 第25章：日志与监控系统集成
-3. 附录H：社区插件与工具生态
-4. 附录I：案例研究
-5. 附录J：迁移指南
+🎉 **全书主体已完成！** 还剩 1 个附录（附录S）待写。
+
+---
+
+## 🔄 持续更新建议
+
+未来可以考虑新增的主题：
+
+- [x] 附录R：Claude Code SDK 与 LlamaIndex 集成 ✅ (2026-05-28)
+  - 内容要点：LlamaIndex Python/TypeScript 双栈、Claude 作为 LLM 后端、RAG 管道、向量数据库集成、Agent+RAG 混合架构、代码库问答系统
+  - 优先级：中 → 已完成
+  - 实际字数：约 6500 字
+  - 代码示例：Python 基础 RAG、带引用查询、TypeScript 混合架构、Chroma/Pinecone 集成、Agent+Tool、代码问答系统
+  - 文件路径：appendix-r-llamaindex-integration.md
+- [ ] 附录S：Claude Code SDK 在边缘设备上的应用
+- [ ] 附录T：Claude Code SDK 与知识图谱结合
+- [x] 第26章：实时协作 Agent 架构 ✅ (2026-05-28)
+  - 内容要点：WebSocket 网关、CRDT 状态层、共享上下文 Agent 池、冲突检测与消解、完整协作代码审查实战
+  - 优先级：高 → 已完成
+  - 实际字数：约 7000 字
+  - 代码示例：CollaborationGateway、CRDTStateStore、SharedContextManager、AgentPool、ConflictDetector、完整 CodeReviewCollabServer、智能节流、上下文压缩、权限管理
+  - 文件路径：26-realtime-collaboration.md
+- [ ] 第27章：Claude Code SDK 与 LLM 编排框架（LangChain/LlamaIndex）深度集成

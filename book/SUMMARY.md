@@ -33,6 +33,7 @@
 - [x] 第15章：生产环境部署 → [15-production-deployment.md](15-production-deployment.md)
 - [x] 第16章：插件开发指南 → [16-plugin-development.md](16-plugin-development.md)
 - [x] 第17章：调试技巧与故障排查 → [17-debugging-troubleshooting.md](17-debugging-troubleshooting.md)
+- [x] 第26章：实时协作 Agent 架构 → [26-realtime-collaboration.md](26-realtime-collaboration.md) ✅
 
 ## 第六部分：附录
 
@@ -44,31 +45,26 @@
 - [x] 附录F：安全最佳实践 → [appendix-f-security-best-practices.md](appendix-f-security-best-practices.md)
 - [x] 附录G：SDK 性能基准测试 → [appendix-g-performance-benchmark.md](appendix-g-performance-benchmark.md) ✅
 
-## 第七部分：扩展进阶篇（待写）
+## 第七部分：附录扩展
 
-- [x] 第18章：实时流式响应与 SSE 处理 → [18-streaming-sse.md](18-streaming-sse.md) ✅
-- [x] 第19章：成本优化与 Token 管理 → [19-cost-optimization.md](19-cost-optimization.md) ✅
-- [x] 第20章：测试策略与 Mock 技巧 → [20-testing-strategy-mock.md](20-testing-strategy-mock.md) ✅
-- [x] 第21章：错误处理与重试机制 → [21-error-handling-retry.md](21-error-handling-retry.md) ✅
-- [x] 第22章：缓存策略与性能调优 → [22-cache-strategy-performance.md](22-cache-strategy-performance.md) ✅
-- [x] 第23章：企业级应用场景 → [23-enterprise-use-cases.md](23-enterprise-use-cases.md) ✅
-- [ ] 第24章：Rate Limiting 与配额管理
-- [ ] 第25章：日志与监控系统集成
-
-## 第七部分：附录扩展（待写）
-
-- [ ] 附录H：社区插件与工具生态
-- [ ] 附录I：案例研究 - 真实公司实施案例
-- [ ] 附录J：迁移指南 - 从其他 AI SDK 迁移
+- [x] 附录H：社区插件与工具生态 → [appendix-h-community-plugins.md](appendix-h-community-plugins.md) ✅
+- [x] 附录I：案例研究 - 真实公司实施案例 → [appendix-i-case-studies.md](appendix-i-case-studies.md) ✅
+- [x] 附录J：迁移指南 - 从其他 AI SDK 迁移 → [appendix-j-migration-guide.md](appendix-j-migration-guide.md)
+- [x] 附录K：Claude Code SDK 安全合规指南 → [appendix-k-security-compliance.md](appendix-k-security-compliance.md)
+- [x] 附录L：大规模团队落地实践 → [appendix-l-team-deployment.md](appendix-l-team-deployment.md) ✅
+- [x] 附录M：Claude Code SDK 与 RAG 集成实战 → [appendix-m-rag-integration.md](appendix-m-rag-integration.md) ✅
+- [x] 附录N：Claude Code SDK 与 Agent 评估框架 → [appendix-n-agent-evaluation.md](appendix-n-agent-evaluation.md) ✅
+- [x] 附录O：Claude Code SDK 在 CI/CD 中的深度应用 → [appendix-o-cicd.md](appendix-o-cicd.md) ✅
+- [x] 附录P：Claude Code SDK 未来趋势与路线图 → [appendix-p-future-roadmap.md](appendix-p-future-roadmap.md) ✅
+- [x] 附录Q：Claude Code SDK 多模态应用实战 → [appendix-q-multimodal.md](appendix-q-multimodal.md) ✅
+- [x] 附录R：Claude Code SDK 与 LlamaIndex 集成 → [appendix-r-llamaindex-integration.md](appendix-r-llamaindex-integration.md)
 
 ---
 
 **统计信息：**
-- 总章节数：31（原有19 + 扩展12）
-- 已完成：**24**
+- 总章节数：**39**（正文 26 章 + 附录 13 章）
+- 已完成：**38**
 - 进行中：0
-- 待完成：**6**（扩展主题）
+- 待完成：**1**（附录S）
 
-**最后更新：** 2026-05-27
-
-> 🎉 第23章（企业级应用场景）已完成！剩余 5 个待写主题。
+**最后更新：** 2026-05-28
